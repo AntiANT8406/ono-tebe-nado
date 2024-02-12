@@ -7,22 +7,17 @@
 }
 
 .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   width: 1052px;
   height: 105px;
   margin: 92px 24px 96px;
-  background-image: url("../images/logo-black.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .header__menu {
   line-height: 27px;
   padding-left: 26px;
   padding-top: 40px;
-
 }
 
 .header__menu-list {
@@ -41,14 +36,24 @@
   text-decoration: none;
 }
 
+.header__logo {
+  display: flex;
+  padding-left: 37px;
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+}
+
 .header__info {
-  padding-top: 3px;
-  padding-right: 24px;
+  padding-top: 4px;
+  padding-left: 54px;
 }
 
 .address {
   font-style: normal;
   width: 240px;
   height: 98px;
-  line-height: 25px;
+  line-height: 1.36;
 }
