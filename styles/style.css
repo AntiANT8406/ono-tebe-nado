@@ -217,7 +217,7 @@
 
 .about {
   display: grid;
-  margin: 147px 18px 0 17px;
+  margin: 147px 25px 0 20px;
   padding-top: 36px;
   column-gap: 16px;
   grid-template-columns: 1fr 2fr;
