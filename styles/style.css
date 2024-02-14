@@ -3,15 +3,15 @@
   font-weight: normal;
   display: grid;
   width: 1052px;
-  height: 105px;
   margin: 92px 24px 96px;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .header__menu {
   line-height: 27px;
-  padding-top: 40px;
-  padding-left: 26px;
+  padding-top: 43px;
+  padding-left: 27px;
+  background-color: cornflowerblue;
 }
 
 .header__menu-list {
@@ -41,8 +41,8 @@
 }
 
 .header__info {
-  padding-top: 4px;
-  padding-left: 54px;
+  margin-top: 7px;
+  margin-left: 53px;
 }
 
 .address {
@@ -68,12 +68,8 @@
 .overlay {
   position: absolute;
   z-index: -1;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 60%;
-  background-color: black;
+  inset: 0;
+  background-color: rgb(0 0 0 / 0.6);
 }
 
 .cover__title {
@@ -127,7 +123,7 @@
 .bet-button {
   font-size: 22px;
   width: 256px;
-  height: 51px;
+  min-height: 51px;
   text-align: center;
   text-transform: uppercase;
   color: white;

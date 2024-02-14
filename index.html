@@ -15,7 +15,7 @@
   <nav class="header__menu">
     <ul class="header__menu-list">
       <li class="header__menu-item">
-        <a class="header__menu-link_active">
+        <a class="header__menu-link_active" href="#0">
           главная
         </a>
       </li>
@@ -30,13 +30,11 @@
   <a class="header__logo">
     <img class="header__logo-image" src="./images/logo-black.svg" alt="Черный логотип">
   </a>
-  <div class="header__info">
-    <address class="address">
-      <a href="tel:+99995555555">+9 999 555 5555</a>
-      <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-      <p>наб. Принсенграхт 263- 265, Амстердам</p>
-    </address>
-  </div>
+  <address class="address header__info">
+    <a href="tel:+99995555555">+9 999 555 5555</a>
+    <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+    <p>наб. Принсенграхт 263- 265, Амстердам</p>
+  </address>
 </header>
 <main>
   <section class="cover">
@@ -56,7 +54,7 @@
       <p class="cover__description-text">
         Аукцион вещей, в которые никто не верил
       </p>
-      <button class="bet-button">Сделать ставку</button>
+      <button type="button" class="bet-button">Сделать ставку</button>
     </div>
   </section>
   <section class="lots">
